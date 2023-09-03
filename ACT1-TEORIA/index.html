@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilosIA.css">
+    <title>Mi Jardín</title>
+</head>
+<body>
+    <header>
+        <h1>Mi Jardín</h1>
+        <nav>
+            <ul>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="#quienes-somos">Quiénes Somos</a></li>
+                <li>
+                    <label for="categorias">Categorías:</label>
+                    <select id="categorias">
+                        <option value="interior">Interior</option>
+                        <option value="exterior">Exterior</option>
+                    </select>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="interior" class="categoria">
+            <h2>Plantas de Interior</h2>
+            <div class="planta">
+                <img src="imagenes/planta1.jpg" alt="Planta 1">
+                <p>Nombre: Planta 1</p>
+                <a href="info/planta1.pdf" download>Descargar PDF</a>
+            </div>
+            <!-- Agrega más plantas de interior aquí -->
+        </section>
+
+        <section id="exterior" class="categoria">
+            <h2>Plantas de Exterior</h2>
+            <div class="planta">
+                <img src="imagenes/planta4.jpg" alt="Planta 4">
+                <p>Nombre: Planta 4</p>
+                <a href="info/planta4.pdf" download>Descargar PDF</a>
+            </div>
+            <!-- Agrega más plantas de exterior aquí -->
+        </section>
+    </main>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <section id="quienes-somos">
+        <h2>Quiénes Somos</h2>
+        <p>Somos amantes de las plantas y nos encanta compartir nuestra pasión contigo.</p>
+    </section>
+
+    <section>
+        <h2>ACTIVIDAD 1 -PROYECTO DE SOFTWARE</h2>
+        <div class="tab">
+            <a href="#link1">Enlace</a>
+
+            <div id="link1">
+                <h3>Parte 1: Interactuá con chatGTP u otra IA similar  de manera tal de obtener un código que permita resolver la siguiente consigna.  Se solicita utilizar esta herramienta para luego realizar un análisis crítico sobre los resultados.</h3>
+                <img src="imagenes/ejercicio1.png" alt="ejercicio1">
+                <h3>Parte 2:Seguí las indicaciones y respondé en el video: (20 pts.).</h3>
+                <img src="imagenes/ejercicio2.png" alt="ejercicio2">
+                <a href="https://drive.google.com/drive/folders/1hkztxSxYt9VBgbuwCDI1JoNpwQdClr24?usp=sharing">Grabaciones</a>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>

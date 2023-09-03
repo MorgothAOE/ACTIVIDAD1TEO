@@ -1,0 +1,149 @@
+/* Reset de estilos */
+body, h1, h2, p, ul, li, form, input, textarea, button {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Encabezado */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav select {
+    padding: 5px;
+}
+
+/* Categorías */
+.categoria {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+.categoria h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.planta {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.planta img {
+    max-width: 100%;
+}
+
+.planta p {
+    font-weight: bold;
+}
+
+.tab div {
+    display: none;
+}
+
+.tab div:target {
+    display: block;
+  
+}
+
+.planta a {
+    display: block;
+    margin-top: 10px;
+}
+
+/* Formulario de contacto */
+#contacto {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+form button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Quiénes Somos */
+#quienes-somos {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+    header {
+        padding: 10px;
+    }
+
+    header h1 {
+        font-size: 24px;
+    }
+
+    nav ul li {
+        margin-right: 10px;
+    }
+
+    .categoria {
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .categoria h2 {
+        font-size: 20px;
+    }
+
+    .planta img {
+        max-width: 80%;
+    }
+
+    form {
+        max-width: 100%;
+    }
+}
